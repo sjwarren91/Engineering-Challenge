@@ -1,7 +1,7 @@
 # Black.AI Engineering Design Challenge
 ## Design Considerations
 As the part number for the PSU was included in the design challenge, it was fairly easy to find the datasheet and 
-installation manual for the CUS30M-12 PSU after a quick google search. The datasheet was used to direct some of 
+installation manual for the CUS30M-12 PSU after a quick google search. The datasheet and installation manual were used to direct some of 
 the major design considerations for the enclosure. Below is a list of all design considerations and the reasoning behind them.
 
 **1. Enclosure Manufacturing Considerations**
@@ -19,5 +19,5 @@ the major design considerations for the enclosure. Below is a list of all design
   * From the datasheet, the PSU is convection cooled, meaning it cools by dissipating heat in the medium around it. As the medium around this PSU is air, some ventilation would be required to allow the hot air to escape the enclosure. Ventilation was included in the design in the form on 6 vent holes on the sides of the enclosure, three on each.
 
 **5. Model Versions, Final Material and Cost**
-  * The original model, Version 1, was of a larger overall design to allow some convenience when attaching the enclosure to a wall or cable tray. The wall mounting holes were in a position where they could be accessed while the PSU was attached to its mounting spacers. However after receiving quotes for this particular enclosure, the cheapest quote that was provided was $128, which is $38 over budget. Thus a new model, Version 2, was designed taking in the minimum requirements for spacing from the datasheet. However the enclosure now has to be fixed to the wall before the PSU can be mounted into the enclosure. This new design reduced the cost of the build to exactly $90, but some of the original ergonomics had to be removed. The best quote that was found was from Zeal 3D Printing located in Melbourne with a lead time of 3-4 working days, which meets all the requirements of the design challenge. The models are labelled V1 and V2 for the old and new models respectively. 
+  * The original model, Version 1, was of a larger overall design to allow some convenience when attaching the enclosure to a wall or cable tray. The wall mounting holes were in a position where they could be accessed while the PSU was attached to its mounting spacers. However after receiving quotes for this particular enclosure, the cheapest quote that was provided was $128, which is $38 over budget. Thus a new model, Version 2, was designed taking in the minimum requirements for spacing from the datasheet. However the enclosure now has to be fixed to the wall before the PSU can be mounted into the enclosure. This new design reduced the cost of the build to exactly $90, but some of the original installer friendliness had to be removed. The best quote ($90) that was found was from Zeal 3D Printing located in Melbourne with a lead time of 3-4 working days, which meets all the requirements of the design challenge. The models are labelled V1 and V2 for the old and new models respectively. 
   
